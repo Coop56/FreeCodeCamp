@@ -1,9 +1,7 @@
 function reverseString(str) {
-  strArray = str.split('');
-  strArray.reverse();
-  str = strArray.join('');
+    str = str.split('').reverse().join('');
 
-  return str;
+    return str;
 }
 
 reverseString("hello");
