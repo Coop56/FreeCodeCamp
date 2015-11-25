@@ -1,2 +1,2 @@
 # freecodecamp
-Solutions to all of the free code camp challenges.
+Solutions to all of the Basic Algorithm Scripting Bonfires.
