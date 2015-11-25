@@ -20,6 +20,8 @@ function truncate(str, num) {
   }
   return str;
 }
+
 // Test Cases
+
 truncate("A-tisket a-tasket A green and yellow basket", 11);
 truncate("Absolutely Longer", 2);
