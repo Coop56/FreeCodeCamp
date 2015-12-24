@@ -15,26 +15,26 @@ The character and its pair are paired up in an array, and all the arrays are gro
 */
 
 function pair(str) {
-  var newArr = [];
-  str = str.split('').map(function (element) {
-    switch(element) {
-      case "G":
-        newArr.push(["G", "C"]);
-        break;
-      case "C":
-        newArr.push(["C", "G"]);
-        break;
-      case "A":
-        newArr.push(["A", "T"]);
-        break;
-      case "T":
-        newArr.push(["T", "A"]);
-        break;
-    }
-  });
-    
-  
-  return newArr;
+    var newArr = [];
+    str = str.split('').map(function (element) {
+        switch (element) {
+        case "G":
+            newArr.push(["G", "C"]);
+            break;
+        case "C":
+            newArr.push(["C", "G"]);
+            break;
+        case "A":
+            newArr.push(["A", "T"]);
+            break;
+        case "T":
+            newArr.push(["T", "A"]);
+            break;
+        }
+    });
+
+
+    return newArr;
 }
 
 // Test Cases

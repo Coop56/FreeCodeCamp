@@ -7,10 +7,10 @@ Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-da
 */
 
 function spinalCase(str) {
- 
-  return str.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/\s+|_+/g, "-").toLowerCase();
-  
-  //return str.split(' ').join('-').toLowerCase();
+
+    return str.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/\s+|_+/g, "-").toLowerCase();
+
+    //return str.split(' ').join('-').toLowerCase();
 }
 
 // Test Cases
